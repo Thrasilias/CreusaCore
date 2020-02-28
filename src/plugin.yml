@@ -1,0 +1,8 @@
+name: ${name}
+version: ${version}
+authors: ${authors}
+website: ${organization.url}
+description: ${description}
+prefix: ${prefix}
+
+softdepend: ${softdepend}

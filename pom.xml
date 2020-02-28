@@ -29,6 +29,7 @@
         <authors type="array">[Thomasix]</authors>
         <softdepend type="array">[]</softdepend>
         <main>com.creusanetwork.core.main.Core</main>
+        <prefix>Core</prefix>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
