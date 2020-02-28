@@ -29,14 +29,11 @@ public class LanguageManager {
                     return ChatColor.translateAlternateColorCodes('&', "&cFout bij het ophalen van de message, " + messageCode + " is een onbekende code! Vraag staff voor hulp!'");
                 }
                 return ChatColor.translateAlternateColorCodes('&', dutchMap.get(messageCode));
-                break;
             default:
                 if(!englishMap.containsKey(messageCode)) {
                     return ChatColor.translateAlternateColorCodes('&', "&cError while retrieving message, " + messageCode + " is an unknown code! Ask staff for help!'");
                 }
                 return ChatColor.translateAlternateColorCodes('&', englishMap.get(messageCode));
-            break;
-                break;
         }
     }
 
